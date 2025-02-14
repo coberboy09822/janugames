@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JanuGames - Play Free Online Games</title>
+    <meta name="description" content="Play free online games at JanuGames.in! Including action games, racing games, puzzle games and many more!">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="light-theme">
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>JanuGames</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search games...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="nav-links">
+                <button id="themeToggle"><i class="fas fa-moon"></i></button>
+                <a href="#categories">Categories</a>
+                <a href="#popular">Popular</a>
+                <a href="#new">New</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Play Amazing Games</h2>
+            <p>Discover thousands of free online games</p>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section id="categories" class="categories">
+        <h2>Game Categories</h2>
+        <div class="category-grid">
+            <div class="category-card" data-category="action">
+                <i class="fas fa-gamepad"></i>
+                <h3>Action</h3>
+            </div>
+            <div class="category-card" data-category="puzzle">
+                <i class="fas fa-puzzle-piece"></i>
+                <h3>Puzzle</h3>
+            </div>
+            <div class="category-card" data-category="racing">
+                <i class="fas fa-car"></i>
+                <h3>Racing</h3>
+            </div>
+            <div class="category-card" data-category="arcade">
+                <i class="fas fa-joystick"></i>
+                <h3>Arcade</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Games -->
+    <section id="popular" class="games-section">
+        <h2>Popular Games</h2>
+        <div class="games-grid" id="popularGames">
+            <!-- Games will be inserted here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- New Games -->
+    <section id="new" class="games-section">
+        <h2>New Games</h2>
+        <div class="games-grid" id="newGames">
+            <!-- Games will be inserted here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About JanuGames</h3>
+                <p>Your favorite destination for free online games.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#categories">Categories</a>
+                <a href="#popular">Popular Games</a>
+                <a href="#new">New Games</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: contact@janugames.in</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 JanuGames. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
